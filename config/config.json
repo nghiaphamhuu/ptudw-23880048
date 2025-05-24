@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "nghiaph2020",
-    "database": "eshopDB",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "ptudwprojectdb",
+    "password": "DenAMnRY8QwrFWSrhGcjqka9r6rRdNvO",
+    "database": "ptudwprojectdb_subx",
+    "host": "dpg-d0omg3uuk2gs738r490g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "postgres",
